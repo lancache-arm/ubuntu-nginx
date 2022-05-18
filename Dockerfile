@@ -1,4 +1,4 @@
-FROM rossmaclean/ubuntu-arm:latest
+FROM rossmaclean/lancache-ubuntu:latest
 MAINTAINER LanCache.Net Team <team@lancache.net>
 ARG DEBIAN_FRONTEND=noninteractive
 COPY overlay/ /
